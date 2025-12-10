@@ -129,32 +129,25 @@ I bounce between backend work, low-level RE, and web stuff. These are the tools 
 
 ## Contribution Snake
 
-<details>
-  <summary>Contribution snake</summary>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
-  </p>
-</details>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+</p>
 
 ---
 
 ## 3D Contribution Landscape
 
-<details>
-  <summary>3D contribution landscape</summary>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Landscape" />
-  </p>
-</details>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Landscape" />
+</p>
 
 ---
 
 ## Activity Graph
-<details>
-  <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=berniemackie97&amp;theme=tokyo-night" alt="Activity Graph" />
-  </p>
-</details>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=berniemackie97&amp;theme=tokyo-night" alt="Activity Graph" />
+</p>
 
 ---
 
