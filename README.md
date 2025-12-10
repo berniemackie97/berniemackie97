@@ -127,14 +127,6 @@ I bounce between backend work, low-level RE, and web stuff. These are the tools 
 
 ---
 
-## Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=berniemackie97&amp;theme=tokyo-night" alt="Activity Graph" />
-</p>
-
----
-
 ## Contribution Snake
 
 <details>
@@ -152,6 +144,15 @@ I bounce between backend work, low-level RE, and web stuff. These are the tools 
   <summary>3D contribution landscape</summary>
   <p align="center">
     <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Landscape" />
+  </p>
+</details>
+
+---
+
+## Activity Graph
+<details>
+  <p align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=berniemackie97&amp;theme=tokyo-night" alt="Activity Graph" />
   </p>
 </details>
 
