@@ -6,7 +6,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&pause=1500&color=F8E4EC&width=700&lines=.NET+%2F+C%23+engineer+into+low-level+stuff%2C+and+building+cool+things;Reverse+engineering%2C+emulation%2C+gray+hat+tools;Dad+that+still+finds+time+to+ship+code%2C+and+break+binaries+at+3AM"
+    src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&pause=1500&color=F8E4EC&width=700&lines=.NET+%2F+C%23+engineer+into+low-level+stuff%2C+and+building+cool+things;Reverse+engineering%2C+emulation%2C+gray+hat+tools%2C+game+development;Dad+that+still+finds+time+to+ship+code%2C+and+break+binaries+at+3AM"
     alt="typing intro"
   />
 </p>
