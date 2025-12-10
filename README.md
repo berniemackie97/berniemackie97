@@ -5,7 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1500&color=F8E4EC&width=700&lines=.NET+engineer+%7C+game+dev+%7C+reverse+engineering+enjoyer;Building+tools,+emulators,+and+weird+little+engines;Husband+%2B+dad+who+still+ships+code+at+3am" alt="typing intro" />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&pause=1500&color=F8E4EC&width=700&lines=.NET+%2F+C%23+engineer+into+low-level+stuff;Reverse+engineering%2C+emulators%2C+MMO+guts;Ships+code%2C+breaks+clients%2C+fixes+them+again"
+    alt="typing intro"
+  />
 </p>
 
 <p align="center">
@@ -18,17 +21,17 @@
 
 ## About
 
-I'm a .NET engineer with ~5 years in production codebases. I like understanding how things actually work under the hood—then bending that knowledge into tools, servers, and odd little experiments.
+I'm a .NET / C# engineer with ~5 years in production systems. I end up in places where you actually have to know how the thing works: game clients, MMO servers, weird binaries, that sort of mess.
 
 Stuff I'm usually doing:
 
-- Picking apart game clients, protocols, and binaries.
-- Building backends that don't fall over the second you look at them.
-- Emulation, game internals, and small simulation / sandbox projects.
-- Tooling and automation so future-me suffers less.
-- Writing things down in repos or blog posts so I don't have to rediscover the same bug twice.
+- Pulling apart game clients, protocols, and random binaries to see what falls out.
+- Building servers, services and tools that are boring and predictable in production.
+- Emulator / engine experiments and small sim or sandbox projects.
+- Automating whatever I can so I can be lazy and still ship.
+- Dumping notes into repos or blog posts so future-me has breadcrumbs.
 
-Outside the screens: husband, dad, and chronic tinkerer.
+Outside the screens: husband, dad, and serial tinkerer with too many side repos.
 
 ---
 
@@ -47,7 +50,7 @@ Outside the screens: husband, dad, and chronic tinkerer.
 
 ## Tech Stack
 
-I like projects where you actually need to care about the whole stack, from binary layout up to the UI.
+I bounce between backend work, low-level RE, and web stuff. These are the tools I actually reach for:
 
 **Languages & Runtimes**
 
@@ -163,7 +166,7 @@ I like projects where you actually need to care about the whole stack, from bina
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-Coming soon…
+Whenever I stop rewriting engines long enough to blog, links will show up here.
 <!-- BLOG-POST-LIST:END -->
 
 ---
