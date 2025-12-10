@@ -129,9 +129,13 @@ I bounce between backend work, low-level RE, and web stuff. These are the tools 
 
 ## Contribution Snake
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
-</p>
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
+      <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+    </picture>
+  </p>
 
 ---
 
