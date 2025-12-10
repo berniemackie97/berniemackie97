@@ -19,8 +19,6 @@
 
 ---
 
-## About
-
 I'm a .NET / C# engineer professionally, gray hat hacktavist for fun.
 
 What I like tinkering with:
@@ -34,8 +32,6 @@ Outside the screens: husband, dad, florida man
 ---
 
 ## Social & Contact
-
-<!-- Replace `#` / email with your real links -->
 
 <p>
   <a href="#"><img src="https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" /></a>
