@@ -46,10 +46,6 @@ Outside the screens: husband, dad, florida man
 
 ---
 
-## Tech Stack
-
-I bounce between backend work, low-level RE, and web stuff. These are the tools I actually reach for:
-
 **Languages & Runtimes**
 
 <p>
