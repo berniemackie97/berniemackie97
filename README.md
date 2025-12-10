@@ -39,9 +39,9 @@ Outside the screens: husband, dad, florida man
 
 <p>
   <a href="#"><img src="https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/bernie-lorente-91008a276/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Twitter-111111?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X" /></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:bs.development.contact@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
@@ -125,17 +125,13 @@ I bounce between backend work, low-level RE, and web stuff. These are the tools 
   <img src="https://github-profile-trophy.vercel.app/?username=berniemackie97&amp;theme=tokyonight&amp;no-frame=true&amp;column=6" alt="GitHub Trophy" />
 </p>
 
----
-
-## Contribution Snake
-
-  <p align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
-      <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
-    </picture>
-  </p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  </picture>
+</p>
 
 ---
 
