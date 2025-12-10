@@ -151,7 +151,7 @@ I like projects where you have to understand the whole stack, from binary layout
   <summary>Contribution snake</summary>
   <p align="center">
     <!-- Generate this with https://github.com/Platane/snk -->
-    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+    <img src="snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
   </p>
 </details>
 
@@ -194,17 +194,6 @@ Setup: https://github.com/athul/waka-readme
 <!-- WAKATIME-STATS:START -->
 Coding activity will appear here automatically once WakaTime is configured.
 <!-- WAKATIME-STATS:END -->
-
----
-
-## Random Fun
-
-Slot for something chaotic/rotating: a meme, a quote, or a random terminal screenshot.
-
-<p align="center">
-  <!-- Replace with your own image or dynamic endpoint -->
-  <img src="meme.png" alt="Random meme" width="400" />
-</p>
 
 ---
 
