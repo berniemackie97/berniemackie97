@@ -1,8 +1,7 @@
 <h1 align="center">Hi, I'm Bernie.</h1>
 
 <p align="center">
-  <!-- Cyberpunk / hacker banner -->
-  <img src="banner.png" alt="Hacky cyberpunk banner" width="100%" />
+  <img src="banner.png" alt="banner" width="100%" />
 </p>
 
 <p align="center">
