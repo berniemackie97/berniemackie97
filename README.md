@@ -21,17 +21,15 @@
 
 ## About
 
-I'm a .NET / C# engineer with ~5 years in production systems. I end up in places where you actually have to know how the thing works: game clients, MMO servers, weird binaries, that sort of mess.
+I'm a .NET / C# engineer professionally, gray hat hacktavist for fun.
 
-Stuff I'm usually doing:
+What I like tinkering with:
 
-- Pulling apart game clients, protocols, and random binaries to see what falls out.
-- Building servers, services and tools that are boring and predictable in production.
-- Emulator / engine experiments and small sim or sandbox projects.
-- Automating whatever I can so I can be lazy and still ship.
-- Dumping notes into repos or blog posts so future-me has breadcrumbs.
+- Deobfuscating game binaries into source code for archival purposes.
+- Network and application security exploitation.
+- Game development, emulation and other things that catch my interest. 
 
-Outside the screens: husband, dad, and serial tinkerer with too many side repos.
+Outside the screens: husband, dad, florida man
 
 ---
 
