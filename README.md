@@ -89,9 +89,6 @@ Outside the screens: husband, dad, florida man
   <a href="https://github.com/berniemackie97/gba">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=gba&amp;theme=tokyonight&amp;show_owner=true" alt="gba repo card" />
   </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/berniemackie97/Client5517C">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Client5517C&amp;theme=tokyonight&amp;show_owner=true" alt="Client5517C repo card" />
   </a>
@@ -107,19 +104,19 @@ Outside the screens: husband, dad, florida man
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=berniemackie97&amp;theme=tokyonight&amp;no-frame=true&amp;column=6" alt="GitHub Trophy" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
     <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
   </picture>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=berniemackie97&amp;theme=tokyonight&amp;no-frame=true&amp;column=6" alt="GitHub Trophy" />
 </p>
 
 ---
