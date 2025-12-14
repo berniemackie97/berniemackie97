@@ -77,14 +77,14 @@ Outside the screens: husband, dad, florida man
 
 ---
 
-## Featured Projects
+## What I'm currently working on
 
 <p align="center">
   <a href="https://github.com/berniemackie97/binary-slicer">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true" alt="binary-slicer repo card" />
   </a>
-  <a href="https://github.com/berniemackie97/Bernie-Devlog">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Bernie-Devlog&amp;theme=tokyonight&amp;show_owner=true" alt="Bernie-Devlog repo card" />
+  <a href="https://github.com/berniemackie97/Runewire">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Runewire&amp;theme=tokyonight&amp;show_owner=true" alt="Runewire repo card" />
   </a>
   <a href="https://github.com/berniemackie97/gba">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=gba&amp;theme=tokyonight&amp;show_owner=true" alt="gba repo card" />
@@ -92,9 +92,6 @@ Outside the screens: husband, dad, florida man
 </p>
 
 <p align="center">
-  <a href="https://github.com/berniemackie97/OpenConquer5517v3">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=OpenConquer5517v3&amp;theme=tokyonight&amp;show_owner=true" alt="OpenConquer5517v3 repo card" />
-  </a>
   <a href="https://github.com/berniemackie97/Client5517C">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Client5517C&amp;theme=tokyonight&amp;show_owner=true" alt="Client5517C repo card" />
   </a>
