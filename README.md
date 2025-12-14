@@ -72,6 +72,14 @@ Outside the screens: husband, dad, florida man
 ---
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  </picture>
+</p>
+
+<p align="center">
   <a href="https://github.com/berniemackie97/binary-slicer">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true" alt="binary-slicer repo card" />
   </a>
@@ -92,13 +100,6 @@ Outside the screens: husband, dad, florida man
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
-  </picture>
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
