@@ -71,8 +71,6 @@ Outside the screens: husband, dad, florida man
 
 ---
 
-## What I'm currently working on
-
 <p align="center">
   <a href="https://github.com/berniemackie97/binary-slicer">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true" alt="binary-slicer repo card" />
@@ -88,9 +86,6 @@ Outside the screens: husband, dad, florida man
   </a>
 </p>
 
----
-
-## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
