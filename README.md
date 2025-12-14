@@ -42,8 +42,6 @@ Outside the screens: husband, dad, florida man
 
 ---
 
-**Languages & Runtimes**
-
 <p>
   <img src="https://img.shields.io/badge/.NET%20%2F%20C%23-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET / C#" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
@@ -54,16 +52,12 @@ Outside the screens: husband, dad, florida man
   <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
 </p>
 
-**Frameworks, Engines & Web**
-
 <p>
   <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt="ASP.NET Core" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=000000" alt="Unity" />
 </p>
-
-**Tooling, Platforms & Infra**
 
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
