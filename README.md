@@ -81,7 +81,7 @@ Outside the screens: husband, dad, florida man
 
 <p align="center">
   <a href="https://github.com/berniemackie97/binary-slicer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true" alt="binary-slicer repo card" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true;description_lines_count=1" alt="binary-slicer repo card" />
   </a>
   <a href="https://github.com/berniemackie97/Runewire">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Runewire&amp;theme=tokyonight&amp;show_owner=true" alt="Runewire repo card" />
