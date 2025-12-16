@@ -114,7 +114,6 @@ Outside the screens: husband, dad, florida man
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-Whenever I stop rewriting engines long enough to blog, links will show up here.
 <!-- BLOG-POST-LIST:END -->
 
 ---
