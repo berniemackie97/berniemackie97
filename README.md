@@ -114,15 +114,15 @@ Outside the screens: husband, dad, florida man
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START --><ol>
-{items}
+{posts}
 </ol><ol>
-{items}
+{posts}
 </ol><ol>
-{items}
+{posts}
 </ol><ol>
-{items}
+{posts}
 </ol><ol>
-{items}
+{posts}
 </ol><!-- BLOG-POST-LIST:END -->
 
 ---
