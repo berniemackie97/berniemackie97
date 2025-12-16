@@ -21,5 +21,4 @@ jobs:
       - name: Pull in blog posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          # TODO: replace with your RSS feed(s)
-          feed_list: "https://your-blog-domain.com/rss"
+          feed_list: "https://magazine-blog-chi.vercel.app/rss.xml"
