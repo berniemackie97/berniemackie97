@@ -113,13 +113,17 @@ Outside the screens: husband, dad, florida man
 
 ## Latest Blog Posts
 
-<!-- BLOG-POST-LIST:START -->
-- [Livewire Probe](https://magazine-blog-chi.vercel.app/posts/livewire-probe/)
-- [Postmortem: The Lag Switch That Wasn&#39;t](https://magazine-blog-chi.vercel.app/posts/lag-switch-postmortem/)
-- [Night Runner](https://magazine-blog-chi.vercel.app/posts/night-runner/)
-- [Signal Hunt in a Broken Chain](https://magazine-blog-chi.vercel.app/posts/signal-hunt/)
-- [Firmware Crumbs](https://magazine-blog-chi.vercel.app/posts/firmware-crumbs/)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><ol>
+{items}
+</ol><ol>
+{items}
+</ol><ol>
+{items}
+</ol><ol>
+{items}
+</ol><ol>
+{items}
+</ol><!-- BLOG-POST-LIST:END -->
 
 ---
 
