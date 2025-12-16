@@ -22,5 +22,5 @@ jobs:
           feed_list: "https://magazine-blog-chi.vercel.app/rss.xml"
           max_post_count: 5
           date_format: "MMM dd, yyyy"
+          template: "<ol>\n{posts}\n</ol>"
           item_template: "<li><a href=\"{url}\">{title}</a><br/><sub>{date}</sub></li>"
-          template: "<ol>\n{items}\n</ol>"
