@@ -2,7 +2,6 @@ name: Latest blog post workflow
 
 on:
   schedule:
-    # runs every day at 01:00 UTC
     - cron: "0 1 * * *"
   workflow_dispatch:
 
@@ -13,7 +12,6 @@ jobs:
   update-readme-with-blog:
     name: Update README with latest blog posts
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,3 +20,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://magazine-blog-chi.vercel.app/rss.xml"
+          max_post_count: 5
+          date_format: "MMM dd, yyyy"
+          item_template: "<li><a href=\"{url}\">{title}</a><br/><sub>{date}</sub></li>"
+          template: "<ol>\n{items}\n</ol>"
