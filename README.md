@@ -114,7 +114,8 @@ Outside the screens: husband, dad, florida man
 <!--## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-Should be updated soon
+- [Livewire Probe](https://magazine-blog-chi.vercel.app/posts/livewire-probe/)
+- [Postmortem: The Lag Switch That Wasn&#39;t](https://magazine-blog-chi.vercel.app/posts/lag-switch-postmortem/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
