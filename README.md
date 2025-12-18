@@ -100,6 +100,8 @@ Outside the screens: husband, dad, florida man
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
 </p>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
