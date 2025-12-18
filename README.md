@@ -120,10 +120,6 @@ Other        0 secs          ░░░░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=berniemackie97&amp;theme=tokyonight&amp;no-frame=true&amp;column=6" alt="GitHub Trophy" />
-</p>
-
 ---
 
 <!--## Latest Blog Posts
@@ -132,3 +128,9 @@ Other        0 secs          ░░░░░░░░░░░░░░░░░
 - [Livewire Probe](https://magazine-blog-chi.vercel.app/posts/livewire-probe/)
 - [Postmortem: The Lag Switch That Wasn&#39;t](https://magazine-blog-chi.vercel.app/posts/lag-switch-postmortem/)
 <!-- BLOG-POST-LIST:END -->
+
+---
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=berniemackie97&amp;theme=tokyonight&amp;no-frame=true&amp;column=6" alt="GitHub Trophy" />
+</p>
