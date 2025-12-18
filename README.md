@@ -72,14 +72,6 @@ Outside the screens: husband, dad, florida man
 ---
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
-  </picture>
-</p>
-
-<p align="center">
   <a href="https://github.com/berniemackie97/binary-slicer">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true" alt="binary-slicer repo card" />
   </a>
@@ -94,6 +86,15 @@ Outside the screens: husband, dad, florida man
   </a>
 </p>
 
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
@@ -134,17 +135,3 @@ Other        0 secs          ░░░░░░░░░░░░░░░░░
 - [Livewire Probe](https://magazine-blog-chi.vercel.app/posts/livewire-probe/)
 - [Postmortem: The Lag Switch That Wasn&#39;t](https://magazine-blog-chi.vercel.app/posts/lag-switch-postmortem/)
 <!-- BLOG-POST-LIST:END -->
-
----
-
-## Credits & Inspirations
-
-Thanks to the folks building these profile widgets and generators:
-
-- [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
-- [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg)
-- [snk (GitHub contribution snake)](https://github.com/Platane/snk)
-- [github-readme-3d-contrib](https://github.com/Ashutosh00710/github-readme-3d-contrib)
-- [GitHub Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph)
-- [beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) for more layout ideas
