@@ -103,21 +103,6 @@ Outside the screens: husband, dad, florida man
 </p>
 
 <!--START_SECTION:waka-->
-
-```txt
-From: 17 December 2025 - To: 18 December 2025
-
-Total Time: 3 hrs 52 mins
-
-Astro        1 hr 12 mins    ███████▓░░░░░░░░░░░░░░░░░   31.30 %
-Rust         1 hr            ██████▒░░░░░░░░░░░░░░░░░░   25.91 %
-TypeScript   55 mins         ██████░░░░░░░░░░░░░░░░░░░   23.96 %
-CSS          31 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.52 %
-C#           8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.74 %
-JavaScript   2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.90 %
-Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 %
-```
-
 <!--END_SECTION:waka-->
 
 ---
@@ -125,8 +110,6 @@ Other        0 secs          ░░░░░░░░░░░░░░░░░
 <!--## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Livewire Probe](https://magazine-blog-chi.vercel.app/posts/livewire-probe/)
-- [Postmortem: The Lag Switch That Wasn&#39;t](https://magazine-blog-chi.vercel.app/posts/lag-switch-postmortem/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
