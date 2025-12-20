@@ -97,6 +97,23 @@ Outside the screens: husband, dad, florida man
 </p>
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 17 December 2025 - To: 20 December 2025
+
+Total Time: 14 hrs 10 mins
+
+Go           4 hrs 29 mins   ████████░░░░░░░░░░░░░░░░░   31.57 %
+Astro        2 hrs 50 mins   █████░░░░░░░░░░░░░░░░░░░░   19.95 %
+TypeScript   2 hrs 7 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.92 %
+Rust         1 hr            █▓░░░░░░░░░░░░░░░░░░░░░░░   07.08 %
+CSS          57 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.75 %
+Bash         20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
+Markdown     18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.18 %
+TSConfig     12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.51 %
+Git          10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.18 %
+```
+
 <!--END_SECTION:waka-->
 
 <p align="center">
