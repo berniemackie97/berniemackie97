@@ -19,22 +19,24 @@
 
 ---
 
-<table>
-  <tr>
-    <td width="60%" valign="top">
+<table width="100%">
+<tr>
+<td width="60%" valign="top">
 
-### About
+<h3>About</h3>
 
-I'm a .NET / C# engineer professionally, gray hat hacktivist for fun.
+<p>I'm a .NET / C# engineer professionally, gray hat hacktivist for fun.</p>
 
-**What I like tinkering with:**
-- Deobfuscating game binaries into source code for archival purposes
-- Network and application security exploitation
-- Game development, emulation, and anything else that catches my interest
+<p><b>What I like tinkering with:</b></p>
+<ul>
+  <li>Deobfuscating game binaries into source code for archival purposes</li>
+  <li>Network and application security exploitation</li>
+  <li>Game development, emulation, and anything else that catches my interest</li>
+</ul>
 
-**Outside the screens:** husband, dad, florida man
+<p><b>Outside the screens:</b> husband, dad, florida man</p>
 
-### Social & Contact
+<h3>Social &amp; Contact</h3>
 
 <p>
   <a href="https://magazine-blog-chi.vercel.app/"><img src="https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" /></a>
@@ -43,23 +45,26 @@ I'm a .NET / C# engineer professionally, gray hat hacktivist for fun.
   <a href="mailto:bs.development.contact@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-    </td>
-    <td width="40%" valign="top" align="center">
+</td>
+<td width="40%" valign="top" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
+<p>
+  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
+</p>
 
-<br/>
+<p>
+  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
-
-<!-- Optional: Streak card (uncomment if you want it) -->
+<!-- Optional: Streak card -->
 <!--
-<br/>
-<img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
+<p>
+  <img width="100%" src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
+</p>
 -->
 
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
 ---
@@ -98,38 +103,38 @@ I'm a .NET / C# engineer professionally, gray hat hacktivist for fun.
 
 ---
 
-## Featured
+<h2>Featured</h2>
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/berniemackie97/binary-slicer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true" alt="binary-slicer repo card" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/berniemackie97/Runewire">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Runewire&amp;theme=tokyonight&amp;show_owner=true" alt="Runewire repo card" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/berniemackie97/gba">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=gba&amp;theme=tokyonight&amp;show_owner=true" alt="gba repo card" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/berniemackie97/Client5517C">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Client5517C&amp;theme=tokyonight&amp;show_owner=true" alt="Client5517C repo card" />
-      </a>
-    </td>
-  </tr>
+<table width="100%">
+<tr>
+<td align="center">
+  <a href="https://github.com/berniemackie97/binary-slicer">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=binary-slicer&amp;theme=tokyonight&amp;show_owner=true" alt="binary-slicer repo card" />
+  </a>
+</td>
+<td align="center">
+  <a href="https://github.com/berniemackie97/Runewire">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Runewire&amp;theme=tokyonight&amp;show_owner=true" alt="Runewire repo card" />
+  </a>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <a href="https://github.com/berniemackie97/gba">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=gba&amp;theme=tokyonight&amp;show_owner=true" alt="gba repo card" />
+  </a>
+</td>
+<td align="center">
+  <a href="https://github.com/berniemackie97/Client5517C">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=berniemackie97&amp;repo=Client5517C&amp;theme=tokyonight&amp;show_owner=true" alt="Client5517C repo card" />
+  </a>
+</td>
+</tr>
 </table>
 
 ---
 
-## Activity
+<h2>Activity</h2>
 
 <p align="center">
   <picture>
