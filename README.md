@@ -105,20 +105,19 @@ Outside the screens: husband, dad, florida man
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 December 2025 - To: 19 December 2025
+From: 17 December 2025 - To: 20 December 2025
 
-Total Time: 9 hrs 48 mins
+Total Time: 14 hrs 10 mins
 
-Go           2 hrs 53 mins   ███████▒░░░░░░░░░░░░░░░░░   29.44 %
-Astro        2 hrs 42 mins   ███████░░░░░░░░░░░░░░░░░░   27.66 %
-TypeScript   1 hr 56 mins    █████░░░░░░░░░░░░░░░░░░░░   19.72 %
-Rust         1 hr            ██▓░░░░░░░░░░░░░░░░░░░░░░   10.26 %
-CSS          46 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.85 %
-Bash         12 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.10 %
-C#           8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.48 %
-MDX          3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 %
-JavaScript   2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.44 %
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
+Go           4 hrs 29 mins   ████████░░░░░░░░░░░░░░░░░   31.57 %
+Astro        2 hrs 50 mins   █████░░░░░░░░░░░░░░░░░░░░   19.95 %
+TypeScript   2 hrs 7 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.92 %
+Rust         1 hr            █▓░░░░░░░░░░░░░░░░░░░░░░░   07.08 %
+CSS          57 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.75 %
+Bash         20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
+Markdown     18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.18 %
+TSConfig     12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.51 %
+Git          10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.18 %
 ```
 
 <!--END_SECTION:waka-->
