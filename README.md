@@ -96,31 +96,14 @@ Outside the screens: husband, dad, florida man
   </picture>
 </p>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
-  <!--<img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />-->
+  <img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
 </p>
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 17 December 2025 - To: 20 December 2025
-
-Total Time: 14 hrs 10 mins
-
-Go           4 hrs 29 mins   ████████░░░░░░░░░░░░░░░░░   31.57 %
-Astro        2 hrs 50 mins   █████░░░░░░░░░░░░░░░░░░░░   19.95 %
-TypeScript   2 hrs 7 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.92 %
-Rust         1 hr            █▓░░░░░░░░░░░░░░░░░░░░░░░   07.08 %
-CSS          57 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.75 %
-Bash         20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
-Markdown     18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.18 %
-TSConfig     12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.51 %
-Git          10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.18 %
-```
-
-<!--END_SECTION:waka-->
 
 ---
 
@@ -133,6 +116,7 @@ Git          10 mins         ▒░░░░░░░░░░░░░░░░
 
 ---
 
-<p align="center">
+<!--<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=berniemackie97&amp;theme=tokyonight&amp;no-frame=true&amp;column=6" alt="GitHub Trophy" />
 </p>
+-->
