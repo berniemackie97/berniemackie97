@@ -86,6 +86,8 @@ Outside the screens: husband, dad, florida man
   </a>
 </p>
 
+---
+
 <p align="center">
   <!--<img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />-->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
