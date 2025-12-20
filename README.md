@@ -86,6 +86,12 @@ Outside the screens: husband, dad, florida man
   </a>
 </p>
 
+<p align="center">
+  <!--<img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />-->
+  <img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
+</p>
+
 ---
 
 <p align="center">
@@ -115,12 +121,6 @@ Git          10 mins         ▒░░░░░░░░░░░░░░░░
 ```
 
 <!--END_SECTION:waka-->
-
-<p align="center">
-  <!--<img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />-->
-  <img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
-</p>
 
 ---
 
