@@ -29,6 +29,12 @@ What I like tinkering with:
 
 Outside the screens: husband, dad, florida man
 
+<p align="right">
+  <!--<img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />-->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
+</p>
+
 ---
 
 ## Social & Contact
@@ -89,21 +95,12 @@ Outside the screens: husband, dad, florida man
 ---
 
 <p align="center">
-  <!--<img src="https://streak-stats.demolab.com?user=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />-->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=berniemackie97&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=berniemackie97&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" />
     <img src="https://raw.githubusercontent.com/berniemackie97/berniemackie97/main/snake-output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
   </picture>
 </p>
-
----
-
 
 <!--START_SECTION:waka-->
 
