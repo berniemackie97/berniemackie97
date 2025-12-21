@@ -170,8 +170,8 @@ C#           17 mins         ▒░░░░░░░░░░░░░░░░
 <!--## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Resources to Help You Get Started](https://magazine-blog-chi.vercel.app/posts/signal-hunt/)
-- [Ridge Beacon](https://magazine-blog-chi.vercel.app/posts/ridge-beacon/)
+- [Resources to Help You Get Started](https://the-rack.vercel.app/posts/signal-hunt/)
+- [Ridge Beacon](https://the-rack.vercel.app/posts/ridge-beacon/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
