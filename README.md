@@ -170,8 +170,8 @@ C#           17 mins         ▒░░░░░░░░░░░░░░░░
 <!--## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Livewire Probe](https://magazine-blog-chi.vercel.app/posts/livewire-probe/)
-- [Postmortem: The Lag Switch That Wasn&#39;t](https://magazine-blog-chi.vercel.app/posts/lag-switch-postmortem/)
+- [Resources to Help You Get Started](https://magazine-blog-chi.vercel.app/posts/signal-hunt/)
+- [Ridge Beacon](https://magazine-blog-chi.vercel.app/posts/ridge-beacon/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
