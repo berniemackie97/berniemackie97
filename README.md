@@ -176,7 +176,7 @@ C#           17 mins         ▒░░░░░░░░░░░░░░░░
 
 ---
 
-<!--<p align="center">
+<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=berniemackie97&amp;theme=tokyonight&amp;no-frame=true&amp;column=6" alt="GitHub Trophy" />
 </p>
--->
+
