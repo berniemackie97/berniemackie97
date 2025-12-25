@@ -149,18 +149,18 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 December 2025 - To: 23 December 2025
+From: 17 December 2025 - To: 24 December 2025
 
-Total Time: 25 hrs 9 mins
+Total Time: 32 hrs 42 mins
 
-Astro          5 hrs 21 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.17 %
-Go             5 hrs 13 mins   █████░░░░░░░░░░░░░░░░░░░░   20.65 %
-TypeScript     2 hrs 33 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.13 %
-CSS            2 hrs 25 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.62 %
-MDX            1 hr 17 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.13 %
-markdown.mdx   1 hr 7 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   04.43 %
-Rust           1 hr            █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 %
-Markdown       45 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.00 %
+Go             12 hrs 28 mins  █████████▒░░░░░░░░░░░░░░░   37.83 %
+Astro          5 hrs 21 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.23 %
+TypeScript     2 hrs 33 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   07.77 %
+CSS            2 hrs 25 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   07.38 %
+MDX            1 hr 17 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.93 %
+markdown.mdx   1 hr 7 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.39 %
+Rust           1 hr            ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.05 %
+Markdown       45 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.30 %
 ```
 
 <!--END_SECTION:waka-->
