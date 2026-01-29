@@ -149,18 +149,18 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 December 2025 - To: 26 January 2026
+From: 17 December 2025 - To: 28 January 2026
 
-Total Time: 39 hrs 30 mins
+Total Time: 43 hrs 17 mins
 
-Go             13 hrs 11 mins  ████████▒░░░░░░░░░░░░░░░░   33.17 %
-Astro          5 hrs 21 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.45 %
-TypeScript     3 hrs 52 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.74 %
-CSS            2 hrs 25 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.12 %
-C#             1 hr 57 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   04.92 %
-MDX            1 hr 17 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.26 %
-Rust           1 hr 13 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.08 %
-markdown.mdx   1 hr 7 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.81 %
+Go             13 hrs 11 mins  ███████▓░░░░░░░░░░░░░░░░░   30.29 %
+TypeScript     6 hrs 55 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.90 %
+Astro          5 hrs 21 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.28 %
+CSS            2 hrs 25 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.58 %
+C#             1 hr 57 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.49 %
+MDX            1 hr 17 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.98 %
+Rust           1 hr 13 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.81 %
+markdown.mdx   1 hr 7 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.57 %
 ```
 
 <!--END_SECTION:waka-->
