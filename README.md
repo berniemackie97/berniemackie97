@@ -149,17 +149,16 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 December 2025 - To: 08 April 2026
+From: 17 December 2025 - To: 09 April 2026
 
-Total Time: 110 hrs 30 mins
+Total Time: 113 hrs 58 mins
 
-C#                        47 hrs 27 mins        ██████████▓░░░░░░░░░░░░░░   42.05 %
-Go                        18 hrs 34 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.46 %
-TypeScript                13 hrs 3 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.57 %
-Astro                     5 hrs 21 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.74 %
-Markdown                  4 hrs 40 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.14 %
-CSS                       3 hrs 19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.95 %
-Other                     2 hrs 21 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.09 %
+C#                        50 hrs 13 mins        ██████████▓░░░░░░░░░░░░░░   42.72 %
+Go                        18 hrs 34 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.79 %
+TypeScript                13 hrs 3 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.10 %
+Markdown                  5 hrs 22 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.57 %
+Astro                     5 hrs 21 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
+Other                     3 hrs 36 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.07 %
 ```
 
 <!--END_SECTION:waka-->
