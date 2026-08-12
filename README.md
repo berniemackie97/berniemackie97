@@ -149,15 +149,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 December 2025 - To: 09 August 2026
+From: 17 December 2025 - To: 11 August 2026
 
-Total Time: 285 hrs 50 mins
+Total Time: 301 hrs 23 mins
 
-C#                        123 hrs 53 mins       ██████████▒░░░░░░░░░░░░░░   41.77 %
-TypeScript                50 hrs 13 mins        ████▒░░░░░░░░░░░░░░░░░░░░   16.93 %
-Markdown                  23 hrs 9 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.81 %
-Go                        18 hrs 45 mins        █▓░░░░░░░░░░░░░░░░░░░░░░░   06.33 %
-Other                     10 hrs 46 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.63 %
+C#                        136 hrs 49 mins       ███████████░░░░░░░░░░░░░░   43.83 %
+TypeScript                50 hrs 13 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.09 %
+Markdown                  23 hrs 9 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.42 %
+Go                        18 hrs 45 mins        █▓░░░░░░░░░░░░░░░░░░░░░░░   06.01 %
+Other                     10 hrs 46 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 %
 ```
 
 <!--END_SECTION:waka-->
