@@ -1,54 +1,47 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-editorial-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/header-editorial-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-editorial-dark.svg" />
-  <img src="assets/header-editorial-light.svg" width="100%" alt="Bernie Lorente. .NET engineer, reverse engineering, and emulation." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-terminal-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/header-terminal-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-terminal-dark.svg" />
+  <img src="assets/header-terminal-light.svg" width="100%" alt="Bernie Lorente. .NET engineer, reverse engineering, and emulation." />
 </picture>
 
-[Blog](https://the-rack.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernie-lorente-91008a276/) · [Email](mailto:bs.development.contact@gmail.com)
+# Hi, I'm Bernie.
 
-## Hi, I'm Bernie.
+**C# at work. Binaries and emulators after hours.**
+
+[Blog](https://the-rack.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernie-lorente-91008a276/) · [Email](mailto:bs.development.contact@gmail.com)
 
 I'm a .NET / C# engineer. After work, I usually end up somewhere between a game binary, an emulator, and a tool I wanted badly enough to build myself.
 
 Husband, dad, Florida man. Still making time to build things and figure out how they work.
 
-## Selected projects
+## /projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/binary-slicer">binary-slicer</a></h3>
-<p><b>Rust · Reverse engineering</b></p>
-<p>A Rust toolkit for mapping native game binaries into smaller, documented pieces. Keeps analysis notes, reports, and repeatable workflows together.</p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/Runewire">Runewire</a></h3>
-<p><b>C# / C++ · Security tooling</b></p>
-<p>A recipe-driven lab for repeatable process injection experiments. Managed orchestration, native tooling, and checks before a run.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/gba">gba</a></h3>
-<p><b>Rust · Emulation</b></p>
-<p>A Game Boy Advance emulator project. A place to dig into hardware behavior, CPU emulation, and the details that make old games tick.</p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/Client5517C">Client5517C</a></h3>
-<p><b>C++ · Game tooling</b></p>
-<p>Windows client launcher tooling for Conquer Online 5517, including patch startup, configuration parsing, and UI logging.</p>
-</td>
-</tr>
-</table>
+### [binary-slicer](https://github.com/berniemackie97/binary-slicer)
 
-## What keeps me interested
+**Rust · Reverse engineering**
 
-- Reverse engineering and documenting game binaries for preservation.
-- Network and application security, especially the parts I can test in a lab.
-- Game development, emulation, and whatever sends me down the next rabbit hole.
+A Rust toolkit for mapping native game binaries into smaller, documented pieces. Keeps analysis notes, reports, and repeatable workflows together.
 
-### Tools I reach for
+### [Runewire](https://github.com/berniemackie97/Runewire)
+
+**C# / C++ · Security tooling**
+
+A recipe-driven lab for repeatable process injection experiments. Managed orchestration, native tooling, and checks before a run.
+
+### [gba](https://github.com/berniemackie97/gba)
+
+**Rust · Emulation**
+
+A Game Boy Advance emulator project. A place to dig into hardware behavior, CPU emulation, and the details that make old games tick.
+
+### [Client5517C](https://github.com/berniemackie97/Client5517C)
+
+**C++ · Game tooling**
+
+Windows client launcher tooling for Conquer Online 5517, including patch startup, configuration parsing, and UI logging.
+
+## /toolbox
 
 **Day job:** C#, .NET, ASP.NET Core
 
@@ -56,13 +49,19 @@ Husband, dad, Florida man. Still making time to build things and figure out how 
 
 **Around the edges:** React, Next.js, Unity, Docker, MySQL, Linux, Windows
 
-## Around the repos
+## /interests
+
+- Reverse engineering and documenting game binaries for preservation.
+- Network and application security, especially the parts I can test in a lab.
+- Game development, emulation, and whatever sends me down the next rabbit hole.
+
+## /activity
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/stats-editorial-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark.svg" />
-  <img src="assets/stats-editorial-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown. Figures and date are listed below." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stats-terminal-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/stats-terminal-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-terminal-dark.svg" />
+  <img src="assets/stats-terminal-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown. Figures and date are listed below." />
 </picture>
 
 <details>
@@ -77,7 +76,7 @@ Each non-fork public repository with a detected primary language is counted once
 </details>
 
 <details>
-<summary>Coding time</summary>
+<summary>Open coding time</summary>
 
 **374 hrs 30 mins tracked** · 17 Dec 2025 to 03 Sep 2026
 
@@ -103,11 +102,11 @@ Source: WakaTime. Tracked editor time; the table shows the top five categories.
 
 </details>
 
-## From the blog
+## /writing
 
 - [Resources to Help You Get Started](https://the-rack.vercel.app/posts/signal-hunt/)
 - [Ridge Beacon](https://the-rack.vercel.app/posts/ridge-beacon/)
 
 ---
 
-Got a question about one of my projects? [Send me an email](mailto:bs.development.contact@gmail.com).
+[All repositories](https://github.com/berniemackie97?tab=repositories) · [Get in touch](mailto:bs.development.contact@gmail.com)
