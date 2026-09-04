@@ -42,3 +42,11 @@ GitHub may suspend scheduled workflows after prolonged inactivity in a public re
 `python3 scripts/update_profile.py --offline` validates every generated README, relative image path, SVG document, unresolved template token, and prohibited dash punctuation. The generated images use plain SVG with system fonts, no scripts, external fonts, or HTML embedded inside SVG.
 
 Source references: [GitHub README images](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files), [WakaTime API](https://wakatime.com/developers), [contribution snake](https://github.com/Platane/snk).
+
+## Edit the design directly on GitHub
+
+Open [profile.json in the GitHub editor](https://github.com/berniemackie97/berniemackie97/edit/main/profile.json) while signed into the account. Change only the `design` value to `editorial`, `terminal`, or `workshop`, keeping the quotation marks. Click **Commit changes**, then commit directly to `main` to update the live profile. The `Refresh profile` workflow regenerates the README automatically; no local tools are required. If you choose a new branch instead, the live profile changes after that branch is merged.
+
+The file chooses a layout. To edit the actual words, change [templates/editorial.md](https://github.com/berniemackie97/berniemackie97/edit/main/templates/editorial.md) or the matching template for the selected design. Template changes also trigger regeneration. Avoid editing generated `README.md` directly, because the next refresh replaces it.
+
+The refined Editorial layout uses a personal name header, full-width featured projects, and a saved WakaTime graphic. Bar lengths compare the tracked times of the top five categories, relative to the largest category. They do not represent percentages of all tracked time. Exact totals and the date range remain available as native text beneath the graphic.
