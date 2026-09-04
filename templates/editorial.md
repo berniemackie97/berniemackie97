@@ -1,8 +1,8 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-editorial-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/header-editorial-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-editorial-dark.svg" />
-  <img src="assets/header-editorial-light.svg" width="100%" alt="Bernie Lorente. .NET engineer, reverse engineering, and emulation." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="{{ASSET}}/header-{{DESIGN}}-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="{{ASSET}}/header-{{DESIGN}}-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="{{ASSET}}/header-{{DESIGN}}-dark.svg" />
+  <img src="{{ASSET}}/header-{{DESIGN}}-light.svg" width="100%" alt="Bernie Lorente. .NET engineer, reverse engineering, and emulation." />
 </picture>
 
 [Blog](https://the-rack.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernie-lorente-91008a276/) · [Email](mailto:bs.development.contact@gmail.com)
@@ -59,37 +59,18 @@ Husband, dad, Florida man. Still making time to build things and figure out how 
 ## Around the repos
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/stats-editorial-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark.svg" />
-  <img src="assets/stats-editorial-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown. Figures and date are listed below." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="{{ASSET}}/stats-{{DESIGN}}-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="{{ASSET}}/stats-{{DESIGN}}-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="{{ASSET}}/stats-{{DESIGN}}-dark.svg" />
+  <img src="{{ASSET}}/stats-{{DESIGN}}-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown. Figures and date are listed below." />
 </picture>
 
-<details>
-<summary>Snapshot details</summary>
-
-Updated 2026-09-04 UTC. 42 public repositories, 39 excluding forks, and 10 primary languages.
-
-C\#: 10, C\+\+: 6, TypeScript: 5, Rust: 4, Lua: 3, Java: 3, C: 2, Astro: 2, Go: 2, CSS: 1.
-
-Each non-fork public repository with a detected primary language is counted once. These are repository counts, not time spent or proficiency scores.
-
-</details>
+{{STATS_TEXT}}
 
 <details>
 <summary>Coding time</summary>
 
-**374 hrs 30 mins tracked** · 17 Dec 2025 to 03 Sep 2026
-
-| Language | Time |
-| :--- | ---: |
-| C\# | 192 hrs 10 mins |
-| TypeScript | 50 hrs 13 mins |
-| Markdown | 34 hrs 8 mins |
-| Go | 18 hrs 49 mins |
-| Other | 14 hrs 40 mins |
-
-Source: WakaTime. Tracked editor time; the table shows the top five categories.
+{{WAKA}}
 
 </details>
 
@@ -97,16 +78,15 @@ Source: WakaTime. Tracked editor time; the table shows the top five categories.
 <summary>A little contribution snake</summary>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="snake-output/github-contribution-grid-snake-dark.svg" />
-  <img src="snake-output/github-contribution-grid-snake.svg" width="100%" alt="An animated snake moving through my GitHub contribution history" />
+  <source media="(prefers-color-scheme: dark)" srcset="{{SNAKE}}/github-contribution-grid-snake-dark.svg" />
+  <img src="{{SNAKE}}/github-contribution-grid-snake.svg" width="100%" alt="An animated snake moving through my GitHub contribution history" />
 </picture>
 
 </details>
 
 ## From the blog
 
-- [Resources to Help You Get Started](https://the-rack.vercel.app/posts/signal-hunt/)
-- [Ridge Beacon](https://the-rack.vercel.app/posts/ridge-beacon/)
+{{BLOG}}
 
 ---
 
