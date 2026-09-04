@@ -1,8 +1,8 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-editorial-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/header-editorial-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-editorial-dark.svg" />
-  <img src="assets/header-editorial-light.svg" width="100%" alt="Bernie Lorente. .NET engineer, reverse engineering, and emulation." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="../../assets/header-editorial-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="../../assets/header-editorial-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/header-editorial-dark.svg" />
+  <img src="../../assets/header-editorial-light.svg" width="100%" alt="Bernie Lorente. .NET engineer, reverse engineering, and emulation." />
 </picture>
 
 [Blog](https://the-rack.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernie-lorente-91008a276/) · [Email](mailto:bs.development.contact@gmail.com)
@@ -59,10 +59,10 @@ Husband, dad, Florida man. Still making time to build things and figure out how 
 ## Around the repos
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/stats-editorial-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark.svg" />
-  <img src="assets/stats-editorial-light.svg" width="100%" alt="Public GitHub repositories, stars, and primary language breakdown. Figures and date are listed below." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="../../assets/stats-editorial-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="../../assets/stats-editorial-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/stats-editorial-dark.svg" />
+  <img src="../../assets/stats-editorial-light.svg" width="100%" alt="Public GitHub repositories, stars, and primary language breakdown. Figures and date are listed below." />
 </picture>
 
 <details>
@@ -97,8 +97,8 @@ Source: WakaTime. Tracked editor time; the table shows the top five categories.
 <summary>A little contribution snake</summary>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="snake-output/github-contribution-grid-snake-dark.svg" />
-  <img src="snake-output/github-contribution-grid-snake.svg" width="100%" alt="An animated snake moving through my GitHub contribution history" />
+  <source media="(prefers-color-scheme: dark)" srcset="../../snake-output/github-contribution-grid-snake-dark.svg" />
+  <img src="../../snake-output/github-contribution-grid-snake.svg" width="100%" alt="An animated snake moving through my GitHub contribution history" />
 </picture>
 
 </details>

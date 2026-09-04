@@ -1,0 +1,69 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'templates/**'
+      - 'profile.json'
+      - '.github/workflows/refresh-profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+      - name: Refresh saved data and render all designs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: python scripts/update_profile.py
+      - name: Refresh contribution snake
+        id: snake
+        continue-on-error: true
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snake-output/github-contribution-grid-snake.svg
+            snake-output/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Keep last good snake if generation failed
+        if: steps.snake.outcome == 'failure'
+        run: |
+          git restore -- snake-output
+          echo '::warning::Snake refresh failed; retained the committed images.'
+      - name: Validate saved output
+        run: python scripts/update_profile.py --offline
+      - name: Save changed profile files
+        env:
+          PROFILE_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md designs assets snake-output
+          if git diff --cached --quiet; then
+            echo 'Profile is already up to date.'
+            exit 0
+          fi
+          git commit -m 'Refresh profile data and graphics'
+          git pull --rebase origin "$PROFILE_BRANCH"
+          git push origin "HEAD:$PROFILE_BRANCH"
