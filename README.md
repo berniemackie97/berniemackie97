@@ -35,7 +35,7 @@ Outside of that: husband, dad, Florida man.
 <p>A Game Boy Advance emulator in Rust. Digging into hardware behavior and the details that make old games tick.</p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/Client5517C">Client5517C</a></h3>
+<h3><a href="https://github.com/berniemackie97/Client5517C">Client<wbr>5517C</a></h3>
 <p><b>C++ · Game tooling</b></p>
 <p>Windows launcher tooling for Conquer Online 5517: patch startup, configuration parsing, and UI logging.</p>
 </td>
