@@ -2,61 +2,67 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="{{ASSET}}/header-{{DESIGN}}-dark-mobile.svg" />
   <source media="(max-width: 600px)" srcset="{{ASSET}}/header-{{DESIGN}}-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="{{ASSET}}/header-{{DESIGN}}-dark.svg" />
-  <img src="{{ASSET}}/header-{{DESIGN}}-light.svg" width="100%" alt="Bernie Lorente. .NET engineer, reverse engineering, and emulation." />
+  <img src="{{ASSET}}/header-{{DESIGN}}-light.svg" width="100%" alt="Bernie Lorente. C# and .NET engineer. Reverse engineering, emulation, and game tooling." />
 </picture>
 
 [Blog](https://the-rack.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernie-lorente-91008a276/) · [Email](mailto:bs.development.contact@gmail.com)
 
-## Hi, I'm Bernie.
+I write C# and .NET for work. My own projects tend to involve game binaries, emulators, and tools that help me understand how things work under the hood.
 
-I'm a .NET / C# engineer. After work, I usually end up somewhere between a game binary, an emulator, and a tool I wanted badly enough to build myself.
+Outside of that: husband, dad, Florida man.
 
-Husband, dad, Florida man. Still making time to build things and figure out how they work.
+## Selected work
 
-## Selected projects
+### [binary-slicer](https://github.com/berniemackie97/binary-slicer)
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/binary-slicer">binary-slicer</a></h3>
-<p><b>Rust · Reverse engineering</b></p>
-<p>A Rust toolkit for mapping native game binaries into smaller, documented pieces. Keeps analysis notes, reports, and repeatable workflows together.</p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/Runewire">Runewire</a></h3>
-<p><b>C# / C++ · Security tooling</b></p>
-<p>A recipe-driven lab for repeatable process injection experiments. Managed orchestration, native tooling, and checks before a run.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/gba">gba</a></h3>
-<p><b>Rust · Emulation</b></p>
-<p>A Game Boy Advance emulator project. A place to dig into hardware behavior, CPU emulation, and the details that make old games tick.</p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/berniemackie97/Client5517C">Client5517C</a></h3>
-<p><b>C++ · Game tooling</b></p>
-<p>Windows client launcher tooling for Conquer Online 5517, including patch startup, configuration parsing, and UI logging.</p>
-</td>
-</tr>
-</table>
+**Reverse engineering · Rust**
 
-## What keeps me interested
+A toolkit for breaking native game binaries into smaller, documented pieces. Keeps analysis notes, reports, and repeatable workflows together, so the next session doesn't start from scratch.
 
-- Reverse engineering and documenting game binaries for preservation.
-- Network and application security, especially the parts I can test in a lab.
-- Game development, emulation, and whatever sends me down the next rabbit hole.
+### [Runewire](https://github.com/berniemackie97/Runewire)
 
-### Tools I reach for
+**Security tooling · C# / C++**
 
-**Day job:** C#, .NET, ASP.NET Core
+A lab for repeatable process injection experiments. Recipes describe the test; the tooling handles orchestration, native execution, and checks before a run.
 
-**Projects:** Rust, C, C++, Go, TypeScript, Lua
+**More game projects**
 
-**Around the edges:** React, Next.js, Unity, Docker, MySQL, Linux, Windows
+- [gba](https://github.com/berniemackie97/gba): a Game Boy Advance emulator in Rust.
+- [Client5517C](https://github.com/berniemackie97/Client5517C): C++ launcher and patching tools for Conquer Online 5517.
 
-## Around the repos
+[Browse all repositories](https://github.com/berniemackie97?tab=repositories)
+
+## At the keyboard
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="{{ASSET}}/coding-editorial-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="{{ASSET}}/coding-editorial-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="{{ASSET}}/coding-editorial-dark.svg" />
+  <img src="{{ASSET}}/coding-editorial-light.svg" width="100%" alt="WakaTime tracked coding time and language totals. Exact dates and figures are in the coding-time details below." />
+</picture>
+
+<details>
+<summary>Coding-time details</summary>
+
+{{WAKA}}
+
+</details>
+
+**Main tools:** C#, .NET, ASP.NET Core, Rust, C++, Go, TypeScript.
+
+<details>
+<summary>The rest of the toolbox</summary>
+
+C, Lua, React, Next.js, Unity, Docker, MySQL, Linux, Windows.
+
+</details>
+
+## From the blog
+
+{{BLOG}}
+
+<details>
+<summary>Public GitHub snapshot</summary>
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="{{ASSET}}/stats-{{DESIGN}}-dark-mobile.svg" />
@@ -67,15 +73,10 @@ Husband, dad, Florida man. Still making time to build things and figure out how 
 
 {{STATS_TEXT}}
 
-<details>
-<summary>Coding time</summary>
-
-{{WAKA}}
-
 </details>
 
 <details>
-<summary>A little contribution snake</summary>
+<summary>Contribution snake</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="{{SNAKE}}/github-contribution-grid-snake-dark.svg" />
@@ -83,11 +84,3 @@ Husband, dad, Florida man. Still making time to build things and figure out how 
 </picture>
 
 </details>
-
-## From the blog
-
-{{BLOG}}
-
----
-
-Got a question about one of my projects? [Send me an email](mailto:bs.development.contact@gmail.com).

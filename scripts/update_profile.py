@@ -109,12 +109,19 @@ def header(design, mode):
     bg, fg, muted, accent, border = PALETTES[design][mode]
     body = f'<rect width="960" height="260" rx="14" fill="{bg}"/>'
     if design == 'editorial':
-        body += f'<path d="M38 36H922M38 223H922" stroke="{border}"/>'
-        body += text(40, 65, 'BERNIE LORENTE', 14, accent, '700', extra='letter-spacing="3"')
-        body += text(38, 139, 'Curious by default.', 58, fg, '700')
-        body += text(40, 180, '.NET engineer. Reverse engineering. Emulation.', 21, muted)
-        body += text(40, 245, 'CODE / GAMES / THE DETAILS IN BETWEEN', 11, muted, extra='letter-spacing="2"')
-        body += f'<g fill="none" stroke="{accent}" stroke-width="2"><rect x="826" y="78" width="70" height="70" rx="8"/><rect x="847" y="99" width="70" height="70" rx="8"/></g>'
+        body = f'<rect x="1" y="1" width="958" height="242" rx="12" fill="{bg}" stroke="{border}"/>'
+        body += f'<path d="M34 34V209" stroke="{accent}" stroke-width="3"/>'
+        body += text(58, 61, 'C# / .NET ENGINEER', 14, accent, '700', extra='letter-spacing="2"')
+        body += text(55, 131, 'Bernie Lorente', 62, fg, '700', extra='letter-spacing="-2"')
+        body += text(58, 173, 'Reverse engineering, emulation, and game tooling.', 20, muted)
+        body += text(58, 209, 'berniemackie97', 13, muted, family='monospace')
+        # A small byte-grid motif ties the header to the binary work without a fake terminal.
+        for row in range(6):
+            for col in range(8):
+                active = (row, col) in {(0, 1), (0, 2), (1, 1), (1, 4), (1, 5), (2, 4), (2, 5), (3, 0), (3, 3), (3, 4), (4, 0), (4, 1), (4, 6), (5, 6), (5, 7)}
+                fill = accent if active else border
+                body += f'<rect x="{772+col*17}" y="{57+row*20}" width="10" height="13" rx="2" fill="{fill}" opacity="{0.8 if active else 0.55}"/>'
+        return svg(body, 244, 'Bernie Lorente', 'C# and .NET engineer. Reverse engineering, emulation, and game tooling.')
     elif design == 'terminal':
         body += f'<path d="M0 44H960" stroke="{border}"/>'
         for x in (25,43,61):
@@ -155,6 +162,15 @@ def stats_card(data, design, mode):
 
 def mobile_header(design, mode):
     bg, fg, muted, accent, border = PALETTES[design][mode]
+    if design == 'editorial':
+        body = f'<rect x="1" y="1" width="478" height="218" rx="12" fill="{bg}" stroke="{border}"/>'
+        body += f'<path d="M25 26V191" stroke="{accent}" stroke-width="3"/>'
+        body += text(45, 47, 'C# / .NET ENGINEER', 15, accent, '700', extra='letter-spacing="1"')
+        body += text(42, 105, 'Bernie Lorente', 44, fg, '700', extra='letter-spacing="-1"')
+        body += text(45, 145, 'Reverse engineering, emulation,', 18, muted)
+        body += text(45, 172, 'and game tooling.', 18, muted)
+        body += text(45, 198, 'berniemackie97', 13, muted, family='monospace')
+        return svg(body, 220, 'Bernie Lorente', width=480)
     body = f'<rect width="480" height="240" rx="12" fill="{bg}"/>'
     body += f'<path d="M24 51H456M24 214H456" stroke="{border}"/>'
     body += text(24, 33, 'BERNIE LORENTE', 14, accent, '700', extra='letter-spacing="2"')
@@ -183,6 +199,39 @@ def mobile_stats(data, design, mode):
     return svg(body, 348, 'Public repository snapshot', width=480)
 
 
+def duration_seconds(value):
+    units = {'day': 86400, 'days': 86400, 'hr': 3600, 'hrs': 3600, 'hour': 3600, 'hours': 3600, 'min': 60, 'mins': 60, 'minute': 60, 'minutes': 60, 'sec': 1, 'secs': 1, 'second': 1, 'seconds': 1}
+    return sum(float(number) * units[unit] for number, unit in re.findall(r'(\d+(?:\.\d+)?)\s+(days?|hrs?|hours?|mins?|minutes?|secs?|seconds?)\b', value))
+
+
+def coding_card(waka, mode, mobile=False):
+    bg, fg, muted, accent, border = PALETTES['editorial'][mode]
+    width, height = (480, 434) if mobile else (960, 260)
+    body = f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="12" fill="{bg}" stroke="{border}"/>'
+    total = waka['total'].replace(' hrs', 'h').replace(' hr', 'h').replace(' mins', 'm').replace(' min', 'm')
+    body += text(26 if mobile else 30, 34 if mobile else 43, 'TRACKED CODING TIME', 13, muted, '700', extra='letter-spacing="1"')
+    body += text(26 if mobile else 28, 89 if mobile else 119, total, 42 if mobile else 46, fg, '700', extra='letter-spacing="-1"')
+    body += text(26 if mobile else 30, 119 if mobile else 153, waka['period'], 15 if mobile else 14, muted)
+    if mobile:
+        body += f'<path d="M26 140H454" stroke="{border}"/>'
+    else:
+        body += text(30, 207, 'WakaTime / top five categories', 13, muted)
+        body += text(30, 229, 'Bars show relative tracked time.', 12, muted)
+    languages = waka['languages'][:5]
+    times = [duration_seconds(l['text']) for l in languages]
+    maximum = max(times, default=0) or 1
+    for i, (language, seconds) in enumerate(zip(languages, times)):
+        x, y, available = (26, 173+i*48, 428) if mobile else (450, 36+i*47, 478)
+        body += text(x, y, language['name'], 19 if mobile else 16, fg, '700')
+        label = language['text'].replace(' hrs', 'h').replace(' hr', 'h').replace(' mins', 'm').replace(' min', 'm')
+        body += text(x+available, y, label, 16 if mobile else 14, muted, extra='text-anchor="end"')
+        body += f'<rect x="{x}" y="{y+10}" width="{available}" height="5" rx="2.5" fill="{border}"/>'
+        body += f'<rect x="{x}" y="{y+10}" width="{available*seconds/maximum:.2f}" height="5" rx="2.5" fill="{accent}"/>'
+    if mobile:
+        body += text(26, 416, 'WakaTime / top five categories / relative time', 13, muted)
+    return svg(body, height, 'Tracked coding time', 'WakaTime totals for ' + waka['period'] + '. Bars compare the tracked time of the top five categories.', width=width)
+
+
 def clean(value):
     # Escape feed/API text for Markdown and HTML, and keep profile punctuation simple.
     value = str(value).replace('\u2014', ', ').replace('\u2013', '-')
@@ -196,6 +245,9 @@ def render(data, waka, blog, selected):
             (ASSETS / f'header-{design}-{mode}-mobile.svg').write_text(mobile_header(design, mode))
             (ASSETS / f'stats-{design}-{mode}-mobile.svg').write_text(mobile_stats(data, design, mode))
             (ASSETS / f'stats-{design}-{mode}.svg').write_text(stats_card(data, design, mode))
+    for mode in ('dark', 'light'):
+        (ASSETS / f'coding-editorial-{mode}.svg').write_text(coding_card(waka, mode))
+        (ASSETS / f'coding-editorial-{mode}-mobile.svg').write_text(coding_card(waka, mode, mobile=True))
     waka_md = f"**{clean(waka['total'])} tracked** · {clean(waka['period'])}\n\n| Language | Time |\n| :--- | ---: |\n"
     waka_md += '\n'.join(f"| {clean(l['name'])} | {clean(l['text'])} |" for l in waka['languages'])
     waka_md += '\n\nSource: WakaTime. Tracked editor time; the table shows the top five categories.'
