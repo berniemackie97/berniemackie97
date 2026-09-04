@@ -67,9 +67,9 @@ Windows client launcher tooling for Conquer Online 5517, including patch startup
 <details>
 <summary>Snapshot details</summary>
 
-Updated 2026-09-04 UTC. 42 public repositories, 39 excluding forks, and 10 primary languages.
+Updated 2026-09-04 UTC. 42 public repositories, 39 excluding forks, and 11 primary languages.
 
-C\#: 10, C\+\+: 6, TypeScript: 5, Rust: 4, Lua: 3, Java: 3, C: 2, Astro: 2, Go: 2, CSS: 1.
+C\#: 10, C\+\+: 6, TypeScript: 5, Rust: 4, Lua: 3, Java: 3, C: 2, Astro: 2, Go: 2, Python: 1, CSS: 1.
 
 Each non-fork public repository with a detected primary language is counted once. These are repository counts, not time spent or proficiency scores.
 
