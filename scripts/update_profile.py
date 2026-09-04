@@ -225,7 +225,8 @@ def validate():
         tree = ET.parse(path)
         if any(e.tag.endswith(('script', 'foreignObject')) for e in tree.iter()):
             raise ValueError(f'Unsupported SVG in {path}')
-    print(f'Validated all four READMEs and {len(list(ASSETS.glob(chr(42) + chr(46) + chr(115) + chr(118) + chr(103))))} local SVG assets.')
+    count = len(list(ASSETS.glob('*.svg')))
+    print(f'Validated all four READMEs and {count} local SVG assets.')
 
 
 def main():

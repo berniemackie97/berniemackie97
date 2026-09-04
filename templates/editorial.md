@@ -20,7 +20,7 @@ Husband, dad, Florida man. Still making time to build things and figure out how 
 <td width="50%" valign="top">
 <h3><a href="https://github.com/berniemackie97/binary-slicer">binary-slicer</a></h3>
 <p><b>Rust · Reverse engineering</b></p>
-<p>A toolkit for breaking native binaries into smaller, documented pieces. Built around repeatable analysis, with Capstone, Rizin, and Ghidra integrations.</p>
+<p>A Rust toolkit for mapping native game binaries into smaller, documented pieces. Keeps analysis notes, reports, and repeatable workflows together.</p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/berniemackie97/Runewire">Runewire</a></h3>
@@ -62,7 +62,7 @@ Husband, dad, Florida man. Still making time to build things and figure out how 
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="{{ASSET}}/stats-{{DESIGN}}-dark-mobile.svg" />
   <source media="(max-width: 600px)" srcset="{{ASSET}}/stats-{{DESIGN}}-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="{{ASSET}}/stats-{{DESIGN}}-dark.svg" />
-  <img src="{{ASSET}}/stats-{{DESIGN}}-light.svg" width="100%" alt="Public GitHub repositories, stars, and primary language breakdown. Figures and date are listed below." />
+  <img src="{{ASSET}}/stats-{{DESIGN}}-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown. Figures and date are listed below." />
 </picture>
 
 {{STATS_TEXT}}
