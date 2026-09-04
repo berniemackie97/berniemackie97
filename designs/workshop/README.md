@@ -19,7 +19,7 @@ Away from the keyboard, I'm a husband and a dad in Florida. At the keyboard, I'm
 
 **Rust · Reverse engineering**
 
-A toolkit for breaking native binaries into smaller, documented pieces. Built around repeatable analysis, with Capstone, Rizin, and Ghidra integrations.
+A Rust toolkit for mapping native game binaries into smaller, documented pieces. Keeps analysis notes, reports, and repeatable workflows together.
 
 ### [Runewire](https://github.com/berniemackie97/Runewire)
 
@@ -64,7 +64,7 @@ Windows client launcher tooling for Conquer Online 5517, including patch startup
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="../../assets/stats-workshop-dark-mobile.svg" />
   <source media="(max-width: 600px)" srcset="../../assets/stats-workshop-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="../../assets/stats-workshop-dark.svg" />
-  <img src="../../assets/stats-workshop-light.svg" width="100%" alt="Public GitHub repositories, stars, and primary language breakdown. Figures and date are listed below." />
+  <img src="../../assets/stats-workshop-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown. Figures and date are listed below." />
 </picture>
 
 <details>
