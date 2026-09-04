@@ -5,10 +5,10 @@ on:
     - cron: '23 6 * * *'
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
+      - 'README.md'
       - 'scripts/**'
-      - 'templates/**'
-      - 'profile.json'
       - '.github/workflows/refresh-profile.yml'
 
 permissions:
@@ -30,7 +30,9 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.13'
-      - name: Refresh saved data and render all designs
+      - name: Check preservation of personal edits
+        run: python scripts/test_update_profile.py
+      - name: Refresh saved data and marked README sections
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -59,7 +61,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md designs assets snake-output
+          git add README.md assets snake-output
           if git diff --cached --quiet; then
             echo 'Profile is already up to date.'
             exit 0

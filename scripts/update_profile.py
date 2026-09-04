@@ -15,7 +15,8 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
-DESIGNS = ('editorial', 'terminal', 'workshop')
+USERNAME = 'berniemackie97'
+BLOCK_NAMES = ('coding-time', 'github-stats', 'blog-posts')
 PALETTES = {
     'editorial': {'dark': ('#0d1117', '#e6edf3', '#9daebb', '#65c7c3', '#263340'), 'light': ('#f5f8fa', '#162b37', '#536977', '#087b7c', '#d7e2e8')},
     'terminal': {'dark': ('#0c1412', '#e3f2e9', '#a0b6a9', '#83dba5', '#2a4035'), 'light': ('#f0f6f2', '#183127', '#526b5f', '#26784b', '#cfdfd4')},
@@ -238,60 +239,80 @@ def clean(value):
     return re.sub(r'([\\`*{}\[\]()#+!|_])', r'\\\1', html.escape(value)).replace('\n', ' ')
 
 
-def render(data, waka, blog, selected):
-    for design in DESIGNS:
-        for mode in ('dark', 'light'):
-            (ASSETS / f'header-{design}-{mode}.svg').write_text(header(design, mode))
-            (ASSETS / f'header-{design}-{mode}-mobile.svg').write_text(mobile_header(design, mode))
-            (ASSETS / f'stats-{design}-{mode}-mobile.svg').write_text(mobile_stats(data, design, mode))
-            (ASSETS / f'stats-{design}-{mode}.svg').write_text(stats_card(data, design, mode))
-    for mode in ('dark', 'light'):
-        (ASSETS / f'coding-editorial-{mode}.svg').write_text(coding_card(waka, mode))
-        (ASSETS / f'coding-editorial-{mode}-mobile.svg').write_text(coding_card(waka, mode, mobile=True))
+def replace_blocks(content, values):
+    """Only marked data blocks belong to automation. All other text belongs to Bernie."""
+    spans = []
+    for name in BLOCK_NAMES:
+        start, end = f'<!-- AUTO:{name}:START -->', f'<!-- AUTO:{name}:END -->'
+        if content.count(start) != 1 or content.count(end) != 1:
+            raise ValueError(f'Keep exactly one START and END marker for {name}; README was not rewritten')
+        left, right = content.index(start) + len(start), content.index(end)
+        if left > right:
+            raise ValueError(f'Reversed markers for {name}; README was not rewritten')
+        spans.append((left, right, values[name]))
+    ordered = sorted(spans)
+    if any(a[1] >= b[0] for a, b in zip(ordered, ordered[1:])):
+        raise ValueError('Automatic data blocks must not overlap; README was not rewritten')
+    for left, right, value in reversed(ordered):
+        content = content[:left] + '\n\n' + value.rstrip() + '\n\n' + content[right:]
+    return content
+
+
+def render(data, waka, blog):
+    # Validate all markers before writing any output.
+    original = (ROOT / 'README.md').read_text()
+    replace_blocks(original, {name: '' for name in BLOCK_NAMES})
     waka_md = f"**{clean(waka['total'])} tracked** · {clean(waka['period'])}\n\n| Language | Time |\n| :--- | ---: |\n"
     waka_md += '\n'.join(f"| {clean(l['name'])} | {clean(l['text'])} |" for l in waka['languages'])
     waka_md += '\n\nSource: WakaTime. Tracked editor time; the table shows the top five categories.'
     blog_md = '\n'.join(f"- [{clean(p['title'])}]({p['url']})" for p in blog)
     stat_details = ', '.join(f'{clean(n)}: {c}' for n,c in data['languages'].items())
     stat_text = f"<details>\n<summary>Snapshot details</summary>\n\nUpdated {data['updated']} UTC. {data['repositories']} public repositories, {data['original']} excluding forks, and {len(data['languages'])} primary languages.\n\n{stat_details}.\n\nEach non-fork public repository with a detected primary language is counted once. These are repository counts, not time spent or proficiency scores.\n\n</details>"
-    for design in DESIGNS:
-        template = (ROOT / 'templates' / f'{design}.md').read_text()
-        content = template.replace('{{DESIGN}}', design).replace('{{WAKA}}', waka_md).replace('{{BLOG}}', blog_md).replace('{{STATS_TEXT}}', stat_text)
-        path = ROOT / 'designs' / design / 'README.md'
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(content.replace('{{ASSET}}', '../../assets').replace('{{SNAKE}}', '../../snake-output'))
-        if design == selected:
-            (ROOT / 'README.md').write_text(content.replace('{{ASSET}}', 'assets').replace('{{SNAKE}}', 'snake-output'))
+    updated = replace_blocks(original, {'coding-time': waka_md, 'github-stats': stat_text, 'blog-posts': blog_md})
+    for mode in ('dark', 'light'):
+        (ASSETS / f'header-editorial-{mode}.svg').write_text(header('editorial', mode))
+        (ASSETS / f'header-editorial-{mode}-mobile.svg').write_text(mobile_header('editorial', mode))
+        (ASSETS / f'stats-editorial-{mode}.svg').write_text(stats_card(data, 'editorial', mode))
+        (ASSETS / f'stats-editorial-{mode}-mobile.svg').write_text(mobile_stats(data, 'editorial', mode))
+        (ASSETS / f'coding-editorial-{mode}.svg').write_text(coding_card(waka, mode))
+        (ASSETS / f'coding-editorial-{mode}-mobile.svg').write_text(coding_card(waka, mode, mobile=True))
+    validate_readme(updated)
+    temp = ROOT / '.README.pending'
+    temp.write_text(updated)
+    temp.replace(ROOT / 'README.md')
+
+
+def validate_readme(content):
+    replace_blocks(content, {name: '' for name in BLOCK_NAMES})
+    if '{{' in content:
+        raise ValueError('Unresolved template token in README')
+    for resource in re.findall(r'(?:src|srcset)="([^"]+)"', content):
+        if resource.startswith('https://'):
+            continue
+        target = (ROOT / resource).resolve()
+        if not target.is_relative_to(ROOT) or not target.is_file():
+            raise ValueError(f'Missing local README image: {resource}')
 
 
 def validate():
-    for path in [ROOT/'README.md', *ROOT.glob('designs/*/README.md')]:
-        content = path.read_text()
-        if '{{' in content or '\u2014' in content or '\u2013' in content or 'href="#"' in content:
-            raise ValueError(f'Unresolved content in {path}')
-        for resource in re.findall(r'(?:src|srcset)="([^"]+)"', content):
-            target = (path.parent / resource).resolve()
-            if not target.is_relative_to(ROOT) or not target.exists():
-                raise ValueError(f'Missing local image: {resource}')
+    validate_readme((ROOT / 'README.md').read_text())
     for path in ASSETS.glob('*.svg'):
         tree = ET.parse(path)
         if any(e.tag.endswith(('script', 'foreignObject')) for e in tree.iter()):
             raise ValueError(f'Unsupported SVG in {path}')
     count = len(list(ASSETS.glob('*.svg')))
-    print(f'Validated all four READMEs and {count} local SVG assets.')
+    print(f'Validated the live README and {count} local SVG assets.')
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--offline', action='store_true', help='Render only from saved snapshots')
     args = parser.parse_args()
-    config = json.loads((ROOT/'profile.json').read_text())
-    if config['design'] not in DESIGNS:
-        raise ValueError('Unknown design')
-    data = cached('github', lambda: github_snapshot(config['username']), not args.offline)
+    validate_readme((ROOT / 'README.md').read_text())
+    data = cached('github', lambda: github_snapshot(USERNAME), not args.offline)
     waka = cached('wakatime', waka_snapshot, not args.offline)
     blog = cached('blog', blog_snapshot, not args.offline)
-    render(data, waka, blog, config['design'])
+    render(data, waka, blog)
     validate()
 
 
