@@ -5,7 +5,9 @@
   <img src="assets/header-editorial-light.svg" width="100%" alt="Bernie Lorente. C# and .NET engineer. Reverse engineering, emulation, and game tooling." />
 </picture>
 
-[Blog](https://the-rack.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernie-lorente-91008a276/) · [Email](mailto:bs.development.contact@gmail.com)
+# Hi, I'm Bernie.
+
+**C# at work. Binaries and emulators after hours.**
 
 I write C# and .NET for work. My own projects tend to involve game binaries, emulators, and tools that help me understand how things work under the hood.
 
@@ -67,7 +69,7 @@ C, Lua, React, Next.js, Unity, Docker, MySQL, Linux, Windows.
 
 </details>
 
-## From the blog
+## /writing
 
 - [Resources to Help You Get Started](https://the-rack.vercel.app/posts/signal-hunt/)
 - [Ridge Beacon](https://the-rack.vercel.app/posts/ridge-beacon/)
