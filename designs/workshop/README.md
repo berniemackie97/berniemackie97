@@ -81,15 +81,15 @@ Each non-fork public repository with a detected primary language is counted once
 <details>
 <summary>A closer look at coding time</summary>
 
-**366 hrs 10 mins tracked** · 17 Dec 2025 to 02 Sep 2026
+**374 hrs 30 mins tracked** · 17 Dec 2025 to 03 Sep 2026
 
 | Language | Time |
 | :--- | ---: |
-| C\# | 185 hrs 27 mins |
+| C\# | 192 hrs 10 mins |
 | TypeScript | 50 hrs 13 mins |
-| Markdown | 32 hrs 48 mins |
+| Markdown | 34 hrs 8 mins |
 | Go | 18 hrs 49 mins |
-| Other | 14 hrs 12 mins |
+| Other | 14 hrs 40 mins |
 
 Source: WakaTime. Tracked editor time; the table shows the top five categories.
 

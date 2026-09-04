@@ -1,10 +1,10 @@
 {
-  "period": "17 Dec 2025 to 02 Sep 2026",
-  "total": "366 hrs 10 mins",
+  "period": "17 Dec 2025 to 03 Sep 2026",
+  "total": "374 hrs 30 mins",
   "languages": [
     {
       "name": "C#",
-      "text": "185 hrs 27 mins"
+      "text": "192 hrs 10 mins"
     },
     {
       "name": "TypeScript",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Markdown",
-      "text": "32 hrs 48 mins"
+      "text": "34 hrs 8 mins"
     },
     {
       "name": "Go",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Other",
-      "text": "14 hrs 12 mins"
+      "text": "14 hrs 40 mins"
     }
   ]
 }
