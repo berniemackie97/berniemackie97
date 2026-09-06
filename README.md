@@ -18,18 +18,6 @@ Outside of that: husband, dad, Florida man.
 <table>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/berniemackie97/binary-slicer">binary-slicer</a></h4>
-<p><b>Rust · Reverse engineering</b></p>
-<p>A Rust toolkit for mapping native game binaries into smaller, documented pieces. Analysis notes, reports, and repeatable workflows in one place.</p>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/berniemackie97/Runewire">Runewire</a></h4>
-<p><b>C# / C++ · Security tooling</b></p>
-<p>A recipe-driven lab for repeatable process injection experiments, with managed orchestration and native tooling.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <h4><a href="https://github.com/berniemackie97/OpenConquerClient">Conquer Online Client</a></h4>
 <p><b>C# · Game Preservation/Emulation</b></p>
 <p>Cross platform modern recreation of the Conquer Online Client</p>
@@ -38,6 +26,18 @@ Outside of that: husband, dad, Florida man.
 <h4><a href="https://github.com/berniemackie97/OpenConquerServer">Conquer Online Server</a></h4>
 <p><b>C# · Game Preservation/Emulation</b></p>
 <p>Conquer Online server emulation made for the OpenConquerClient, while remaining compatible with the native 5517 client</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/berniemackie97/binary-slicer">binary-slicer</a></h4>
+<p><b>Rust · Reverse engineering</b></p>
+<p>A Rust toolkit for mapping native game binaries into smaller, documented pieces. Analysis notes, reports, and repeatable workflows in one place.</p>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/berniemackie97/Runewire">Runewire</a></h4>
+<p><b>C# / C++ · Security tooling</b></p>
+<p>A recipe-driven lab for repeatable process injection experiments, with managed orchestration and native tooling.</p>
 </td>
 </tr>
 </table>
