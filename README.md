@@ -30,14 +30,14 @@ Outside of that: husband, dad, Florida man.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/berniemackie97/gba">gba</a></h4>
-<p><b>Rust · Emulation</b></p>
-<p>A Game Boy Advance emulator in Rust. Digging into hardware behavior and the details that make old games tick.</p>
+<h4><a href="https://github.com/berniemackie97/OpenConquerClient">Conquer Online Client</a></h4>
+<p><b>C# · Game Preservation/Emulation</b></p>
+<p>Cross platform modern recreation of the Conquer Online Client</p>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/berniemackie97/Client5517C">Client5517C</a></h4>
-<p><b>C++ · Game tooling</b></p>
-<p>Windows launcher tooling for Conquer Online 5517: patch startup, configuration parsing, and UI logging.</p>
+<h4><a href="https://github.com/berniemackie97/OpenConquerServer">Conquer Online Server</a></h4>
+<p><b>C# · Game Preservation/Emulation</b></p>
+<p>Conquer Online server emulation made for the OpenConquerClient, while remaining compatible with the native 5517 client</p>
 </td>
 </tr>
 </table>
