@@ -1,19 +1,18 @@
 {
   "updated": "2026-09-07",
-  "repositories": 42,
-  "original": 39,
+  "repositories": 32,
+  "original": 31,
   "languages": {
-    "C#": 10,
-    "C++": 6,
-    "TypeScript": 5,
+    "C#": 9,
+    "TypeScript": 4,
     "Rust": 4,
     "Lua": 3,
+    "C++": 3,
     "Java": 3,
-    "C": 2,
-    "Astro": 2,
     "Go": 2,
+    "Astro": 1,
     "Python": 1,
-    "CSS": 1
+    "C": 1
   },
-  "stars": 5
+  "stars": 2
 }
