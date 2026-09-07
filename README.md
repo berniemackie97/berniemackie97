@@ -4,12 +4,13 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-editorial-dark-mobile.svg" />
   <source media="(max-width: 600px)" srcset="assets/header-editorial-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-editorial-dark.svg" />
-  <img src="assets/header-editorial-light.svg" width="100%" alt="Bernie Lorente. C# and .NET engineer. Reverse engineering, emulation, and game tooling." />
+  <img src="assets/header-editorial-light.svg" width="100%" alt="Bernie Lorente. .NET engineer. Reverse engineering, emulation, and developer tooling." />
 </picture>
 
 [Blog](https://the-rack.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bernie-lorente-91008a276/) · [Email](mailto:bs.development.contact@gmail.com)
 
-I write C# and .NET for work. My own projects tend to involve game binaries, emulators, and tools that help me understand how things work under the hood.
+Professional .NET Engineer by day. Binary cracker by night.
+Recently I have been into game preservation, game engines, and reverse engineering. 
 
 Outside of that: husband, dad, Florida man.
 
@@ -48,7 +49,7 @@ Outside of that: husband, dad, Florida man.
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/coding-editorial-dark-mobile.svg" />
   <source media="(max-width: 600px)" srcset="assets/coding-editorial-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/coding-editorial-dark.svg" />
-  <img src="assets/coding-editorial-light.svg" width="100%" alt="WakaTime tracked coding time and language totals. Exact dates and figures are in the coding-time details below." />
+  <img src="assets/coding-editorial-light.svg" width="100%" alt="WakaTime tracked coding time and language totals." />
 </picture>
 
 <details>
@@ -72,7 +73,7 @@ Source: WakaTime. Tracked editor time; the table shows the top five categories.
 
 </details>
 
-**Main tools:** C#, .NET, ASP.NET Core, Rust, C++, Go, TypeScript.
+**Main tools:** C#/.NET, Rust, C++, Go, TypeScript.
 
 <details>
 <summary>The rest of the toolbox</summary>
@@ -87,7 +88,7 @@ C, Lua, React, Next.js, Unity, Docker, MySQL, Linux, Windows.
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark-mobile.svg" />
   <source media="(max-width: 600px)" srcset="assets/stats-editorial-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-editorial-dark.svg" />
-  <img src="assets/stats-editorial-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown. Figures and date are listed below." />
+  <img src="assets/stats-editorial-light.svg" width="100%" alt="Public GitHub repositories and primary language breakdown." />
 </picture>
 
 <!-- AUTO:github-stats:START -->
