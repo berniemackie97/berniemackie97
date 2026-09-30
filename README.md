@@ -57,11 +57,11 @@ Outside of that: husband, dad, Florida man.
 
 <!-- AUTO:coding-time:START -->
 
-**468 hrs 39 mins tracked** · 17 Dec 2025 to 28 Sep 2026
+**470 hrs 17 mins tracked** · 17 Dec 2025 to 29 Sep 2026
 
 | Language | Time |
 | :--- | ---: |
-| C\# | 269 hrs 26 mins |
+| C\# | 271 hrs 4 mins |
 | TypeScript | 55 hrs 20 mins |
 | Markdown | 44 hrs |
 | Other | 23 hrs 18 mins |
@@ -96,7 +96,7 @@ C, Lua, React, Next.js, Unity, Docker, MySQL, Linux, Windows.
 <details>
 <summary>Snapshot details</summary>
 
-Updated 2026-09-29 UTC. 33 public repositories, 32 excluding forks, and 10 primary languages.
+Updated 2026-09-30 UTC. 33 public repositories, 32 excluding forks, and 10 primary languages.
 
 C\#: 9, TypeScript: 4, Rust: 4, Lua: 3, C\+\+: 3, Java: 3, Go: 2, C: 2, Astro: 1, Python: 1.
 
