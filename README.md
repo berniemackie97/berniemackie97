@@ -57,14 +57,14 @@ Outside of that: husband, dad, Florida man.
 
 <!-- AUTO:coding-time:START -->
 
-**488 hrs 52 mins tracked** · 17 Dec 2025 to 08 Oct 2026
+**494 hrs 8 mins tracked** · 17 Dec 2025 to 10 Oct 2026
 
 | Language | Time |
 | :--- | ---: |
-| C\# | 286 hrs 47 mins |
+| C\# | 291 hrs 23 mins |
 | TypeScript | 57 hrs 1 min |
-| Markdown | 44 hrs 5 mins |
-| Other | 23 hrs 39 mins |
+| Markdown | 44 hrs 44 mins |
+| Other | 23 hrs 43 mins |
 | Go | 18 hrs 49 mins |
 
 Source: WakaTime. Tracked editor time; the table shows the top five categories.
@@ -96,7 +96,7 @@ C, Lua, React, Next.js, Unity, Docker, MySQL, Linux, Windows.
 <details>
 <summary>Snapshot details</summary>
 
-Updated 2026-10-09 UTC. 33 public repositories, 32 excluding forks, and 10 primary languages.
+Updated 2026-10-10 UTC. 33 public repositories, 32 excluding forks, and 10 primary languages.
 
 C\#: 9, TypeScript: 4, Rust: 4, Lua: 3, C\+\+: 3, Java: 3, Go: 2, C: 2, Astro: 1, Python: 1.
 
