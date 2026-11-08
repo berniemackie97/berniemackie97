@@ -96,9 +96,9 @@ C, Lua, React, Next.js, Unity, Docker, MySQL, Linux, Windows.
 <details>
 <summary>Snapshot details</summary>
 
-Updated 2026-11-07 UTC. 34 public repositories, 33 excluding forks, and 10 primary languages.
+Updated 2026-11-08 UTC. 35 public repositories, 34 excluding forks, and 11 primary languages.
 
-C\#: 10, TypeScript: 4, Rust: 4, Lua: 3, C\+\+: 3, Java: 3, Go: 2, C: 2, Astro: 1, Python: 1.
+C\#: 10, TypeScript: 4, Rust: 4, Lua: 3, C\+\+: 3, Java: 3, Go: 2, C: 2, Astro: 1, Python: 1, Ruby: 1.
 
 Each non-fork public repository with a detected primary language is counted once. These are repository counts, not time spent or proficiency scores.
 
